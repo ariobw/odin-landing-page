@@ -1,0 +1,38 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    /* color: #e5e7eb; */
+}
+
+li {
+    margin: 0 1rem;
+}
+
+.hero-section {
+    background-color: #1f2937;
+}
+
+.hero-section .h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+
+}
