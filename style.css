@@ -145,11 +145,17 @@ button:hover {
     background-color: #e5e7eb;
     color: #1f2937;
     display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     gap: 1rem;
+    max-width: 40%;
 }
 
 .quote-text {
@@ -159,9 +165,10 @@ button:hover {
 
 .quote-author {
     font-weight: bold;
+    align-self: flex-end;
 }
 
-/* Registration styles */
+/* Call to Action styles */
 .cta-section {
     flex: 1;
     display: flex;
@@ -170,7 +177,7 @@ button:hover {
 }
 
 .cta-box {
-    width: 800px;
+    width: 50%;
     background-color: #3882f6;
     border-radius: 8px;
     display: flex;
