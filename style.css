@@ -100,6 +100,8 @@ button:hover {
     align-items: center;
     flex-direction: column;
     flex: 1;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .information-section h1 {
@@ -111,13 +113,16 @@ button:hover {
 .card-row {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 4rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .card-image {
@@ -131,34 +136,60 @@ button:hover {
 .card-text {
     width: 150px;
     font-size: small;
+    text-align: center;
 }
-
-/* img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 2px solid black;
-} */
 
 /* Quote styles */
 .quote-section {
     flex: 1;
     background-color: #e5e7eb;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
 }
 
-.italic-text {
+.quote-text {
     font-style: italic;
     font-weight: 300;
 }
 
-.bold-text {
+.quote-author {
     font-weight: bold;
 }
 
 /* Registration styles */
-.registration-section {
+.cta-section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.cta-box {
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.cta-text {
+    color: #f9faf8;
+}
+
+.cta-text p {
+    font-size: 16px;
+}
+
+.cta-section button {
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
 }
 
 /* Footer styles */
